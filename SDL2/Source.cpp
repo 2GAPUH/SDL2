@@ -95,11 +95,7 @@ int main(int argc, char* argv[])
 	SDL_RenderClear(ren);
 	SDL_RenderPresent(ren);
 
-	SDL_SetRenderDrawColor(ren, 0, 0, 0, 0);
 
-	DrawAxis(xOffset, yOffset, 2);
-
-	SDL_SetRenderDrawColor(ren,200, 0, 0, 0);
 
 	SDL_RenderPresent(ren);
 
